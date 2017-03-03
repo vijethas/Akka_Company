@@ -38,5 +38,8 @@ public class EmployeeService {
 		String result = et.changeSupervisor(empId, newSupervisorId);
 		return Response.status(200).entity(result).build();
 	}
-
+	
+	public static void main(String[] args) {
+		System.out.println("Test");
+	}
 }
